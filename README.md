@@ -42,4 +42,4 @@ my-mini-projekt**
 index.html hinzufügen (falls sie noch nicht existiert)
 Wenn du keine index.html hast, mach dir einfach schnell eine mit dem folgenden Befehl. Dann zeigt Apache auch wirklich was an.
 
-**echo "<h1>Hallo, das ist meine Webseite</h1>" > /home/vmadmin/webserver_mini_projekt/public-html/index.html**
+**echo ""<h1>"Hallo, das ist meine Webseite"</h1>"" > /home/vmadmin/webserver_mini_projekt/public-html/index.html**
