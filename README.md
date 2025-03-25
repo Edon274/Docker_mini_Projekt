@@ -43,3 +43,6 @@ index.html hinzufügen (falls sie noch nicht existiert)
 Wenn du keine index.html hast, mach dir einfach schnell eine mit dem folgenden Befehl. Dann zeigt Apache auch wirklich was an.
 
 **echo "Hallo, das ist meine Webseite" > /home/vmadmin/webserver_mini_projekt/public-html/index.html**
+
+Öffne jetzt einen Browser und gehe auf localhost:8080, jetzt solltest du dein Webserver sehen.
+![image](https://github.com/user-attachments/assets/cb479938-0b39-4649-af49-ba61ed9ddd5c)
