@@ -17,10 +17,10 @@ Im Projektordner brauchen wir ein Dockerfile. Damit geben wir an, wie unser Apac
 ## Inhalt für das Dockerfile einfügen
 Jetzt kommt der Inhalt rein. Er sagt Docker: "Nimm Apache, kopiere die Webseite rein, hör auf Port 80 und starte Apache richtig."
 
-**FROM httpd:2.4
-COPY ./public-html/ /usr/local/apache2/htdocs/
-LABEL maintainer="edon thaqi"
-EXPOSE 80
+**FROM httpd:2.4 \
+COPY ./public-html/ /usr/local/apache2/htdocs/ \
+LABEL maintainer="edon thaqi" \
+EXPOSE 80 \
 CMD ["httpd-foreground"]**
 
 ## Image bauen
