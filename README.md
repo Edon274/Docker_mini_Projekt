@@ -6,6 +6,7 @@ Verzeichnis für das Projekt erstellen
 Damit wir alles sauber haben, machen wir zuerst einen neuen Ordner für unser Projekt und gehen gleich rein.
 
 **mkdir webserver_mini_projekt**
+
 **cd webserver_mini_projekt**
 
 Dockerfile erstellen
